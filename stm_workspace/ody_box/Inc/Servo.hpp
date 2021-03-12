@@ -1,6 +1,9 @@
 #ifndef SERVO_HPP
 #define SERVO_HPP
 
+#define MAX_SERVO 1000
+#define MIN_SERVO 100
+
 #include "stm32wbxx_hal.h"
 
 class Servo{
